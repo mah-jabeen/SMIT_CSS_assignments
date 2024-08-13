@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: smooth;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+
+  position: relative;
+    background-image: url('assests/pic1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 100vh; 
+    display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+    margin: 0;
+}
+
+.box1,.box2, .box3, .box4{
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.box1{
+  background-image: url(assests/colorpalette.PNG);
+  background-size: 200px 180px;
+}
+.box2{
+  background-image: url(assests/productcard.PNG);
+  background-size: 250px 180px;
+}
+.box3{
+  background-image: url(assests/form.PNG);
+  background-size: 250px 180px;
+}
+.box4{
+  background-image: url(assests/mdn.PNG);
+  background-size: 250px 200px;
+}
+
+.box1:hover{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.box2:hover{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.box3:hover{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.box4:hover{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+h2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  color: rgb(3, 94, 3);
+  display: block;
+
+}
+/* .link{
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: blue;
+  align-items: flex-end;
+  justify-content: center;
+  
+
+  /* padding: 0 30px; */
+
+  /* justify-content: flex-end; */ 
+
+  .link{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.link>a{
+  color: black;
+padding: 6px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
